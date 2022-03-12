@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora otimizada</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id ="calculadora">
+        <h1>Calculadora</h1>        
+            <table id="tabela">
+                <input type="text" id="tela">
+                <tr>
+                <td><button onclick="apagar('C')">C</button></td>
+                <td><button onclick="operador('/')">/</button></td>
+                <td><button onclick="operador('*')">x</button></td>
+                <td><button onclick="operador('-')">-</button></td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="number(7)">7</button></td>
+                    <td><button onclick="number(8)">8</button></td>
+                    <td><button onclick="number(9)">9</button></td>
+                    <td><button onclick="operador('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="number(4)">4</button></td>
+                    <td><button onclick="number(5)">5</button></td>
+                    <td><button onclick="number(6)">6</button></td>
+                    <td><button onclick="operador('.')">.</button></td>.</button></td>
+
+                </tr>
+                <tr>
+                    <td><button onclick="number(1)">1</button></td>
+                    <td><button onclick="number(2)">2</button></td>
+                    <td><button onclick="number(3)">3</button></td>
+                    <td rowspan="2"><button style="height:76px" onclick="resultado('=')">=</button></td>
+                </tr>
+                <td colspan="2"><button style="width:82px" onclick="number(0)" >0</button></td>
+                <td><button onclick="apagar('c')">c</button></td>c</button></td>
+            </table>
+            
+        </div>
+    <footer>
+        <p>%GuiThéo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

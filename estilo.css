@@ -1,0 +1,30 @@
+body {
+    background-color: darkorange;
+    text-align: center;
+    font: normal  Arial, sans-serif;
+    color: white;
+}
+
+div#calculadora {
+    background-color: black;
+    background-position: center;
+    position: absolute;
+    text-align: center;
+    left: 45%;
+    border-radius: 25px;
+    padding: 15px; 
+      
+}
+ button {
+     float: left;
+     height: 33px;
+     width: 38px;
+     margin: 3px;
+      color: white ;
+      background-color:black;
+      font-size: 15px;
+}
+input#tela {
+    background-color: black;
+    color: white;
+}
